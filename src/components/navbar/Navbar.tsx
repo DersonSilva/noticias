@@ -30,7 +30,6 @@ export const Navbar = ({
       <StatusBar barStyle="light-content" backgroundColor={colors.primary} />
 
       <View className="flex-row items-center justify-between mb-4">
-        {/* Título Notícias */}
         <TouchableOpacity
           onPress={() => setShowFavorites(false)}
           className="flex-row items-center flex-1 ml-2"
@@ -47,7 +46,6 @@ export const Navbar = ({
           </Text>
         </TouchableOpacity>
 
-        {/* Ícone de Favoritos com Badge */}
         <View className="flex-row space-x-3">
           <TouchableOpacity
             onPress={() => setShowFavorites(!showFavorites)}

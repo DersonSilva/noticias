@@ -1,4 +1,4 @@
-# Notícias App 🚀
+# Notícias 🚀
 
 Aplicativo mobile desenvolvido em **React Native** com **Expo**, que consome a **GNews API** para exibir notícias em tempo real. Este projeto é um teste técnico, demonstrando habilidades em **TypeScript, APIs, navegação e arquitetura mobile**.
 
@@ -32,8 +32,8 @@ Aplicativo mobile desenvolvido em **React Native** com **Expo**, que consome a *
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/DersonSilva/noticias_app.git
-cd noticias_app
+git clone https://github.com/DersonSilva/noticias.git
+cd noticias
 ```
 
 2. Instale as dependências:
@@ -61,7 +61,7 @@ npx expo start
 
 ## Como instalar o APK (Android)
 
-1. Baixe o arquivo `NoticiasApp.apk` enviado.
+1. Baixe o arquivo `noticias.apk` enviado.
 2. Habilite a opção **Instalar de fontes desconhecidas** no dispositivo: Configurações → Segurança → Permitir instalação de fontes desconhecidas.
 3. Abra o APK e siga as instruções de instalação.
 4. Abra o app e teste todas as funcionalidades.
@@ -70,51 +70,29 @@ npx expo start
 
 ---
 
-## Desafio Front-end: App de Notícias em React
+---
 
-**Objetivo:** Desenvolver um aplicativo mobile em React que consome uma API de notícias e exibe as manchetes em uma lista, com funcionalidades básicas de busca e detalhamento. Opcionalmente, criar um build nativo React Native/Expo.
+---
 
-### Requisitos Técnicos
+## 📄 Sobre o Projeto
 
-**Tecnologias:**
+O **Notícias App** é um aplicativo mobile desenvolvido com foco em **performance**, **boas práticas** e **excelente experiência do usuário**.  
+Ele consome dados em tempo real da **GNews API**, exibindo manchetes atualizadas de forma simples, rápida e intuitiva.
 
-- React
-- Gerenciamento de estado
-- Fetch API
+O projeto demonstra habilidades sólidas em **React Native**, **TypeScript**, **arquitetura mobile moderna**, **consumo de APIs REST**, **tratamento de erros**, e **design responsivo**.  
+Além disso, todo o processo de **build e geração do APK** foi realizado com o **Expo**, seguindo práticas profissionais de empacotamento e distribuição de aplicativos Android.
 
-**API Sugerida:**
+---
 
-- NewsAPI (requer cadastro para obter uma chave gratuita)
-- Alternativa: GNews (também requer chave)
+## 🧠 Aprendizados e Boas Práticas Aplicadas
 
-### Sugestão de funcionalidades
+Durante o desenvolvimento, foram aplicados conceitos essenciais para a construção de aplicações robustas e escaláveis:
 
-#### Tela Inicial (Lista de Notícias)
+- 📂 **Arquitetura modular**: organização clara de pastas, componentes e contextos
+- ⚙️ **Tratamento de erros** e gerenciamento de estados de carregamento
+- 🧾 **Tipagem forte com TypeScript** para maior segurança e manutenção do código
+- 🌐 **Integração otimizada com APIs REST**, utilizando `fetch` com controle de cancelamento de requisições
+- 📱 **Build e empacotamento via Expo**, com configuração completa para geração do APK final
+- 🎨 **Estilização moderna com NativeWind (Tailwind CSS)**, garantindo responsividade e consistência visual
 
-- Exibir uma lista de notícias com:
-
-  - Imagem de destaque (se disponível)
-  - Título
-  - Fonte (nome do site/jornal)
-  - Data de publicação
-
-- Scroll infinito ou paginação básica
-
-#### Busca por Notícias
-
-- Campo de busca para filtrar notícias por palavra-chave
-
-#### Tela de Detalhes
-
-- Ao clicar em uma notícia, exibir:
-
-  - Título completo
-  - Imagem em destaque
-  - Conteúdo/resumo
-  - Link para a notícia original (clicável)
-
-#### Funcionalidades diferenciais
-
-- Favoritos: salvar notícias localmente
-- Categorias: filtrar notícias por categoria (tecnologia, negócios, esportes)
-- Modo Offline: exibir notícias já carregadas quando o app estiver sem conexão
+---

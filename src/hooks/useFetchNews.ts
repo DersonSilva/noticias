@@ -19,7 +19,6 @@ export const useNewsFetch = () => {
         setNews(data);
         setError(null);
       } catch (err: any) {
-        console.warn("Erro ao buscar notícias:", err.message);
         setNews([]);
         setError("Erro ao carregar notícias");
       } finally {

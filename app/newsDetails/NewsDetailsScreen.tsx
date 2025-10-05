@@ -24,7 +24,6 @@ export default function NewsDetailScreen() {
         const parsed = JSON.parse(decodeURIComponent(newsJson));
         setItem(parsed);
       } catch (err) {
-        console.log("Erro ao decodificar notícia via JSON:", err);
         setItem(null);
       }
     }

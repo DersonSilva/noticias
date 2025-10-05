@@ -66,7 +66,6 @@ export const fetchNewsApi = async (
     }));
   } catch (error: any) {
     if (error.name === "AbortError") return [];
-    console.error("Erro ao buscar notícias:", error.message);
     throw new Error(error.message || "Erro ao buscar notícias");
   }
 };
